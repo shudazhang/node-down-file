@@ -1,4 +1,4 @@
-# download-file 
+# node-down-file 
 不使用第三方库的nodejs下载文件工具
 
 ## 环境要求
@@ -12,7 +12,11 @@
 ## 引入使用
 ```
 使用实例
-    const downloadFile = require('./download-file.js');
+    npm install @shudazhang/node-down-file
+    const downloadFile = require('@shudazhang/node-down-file')
+
+    或者
+    const downloadFile = require('./node-down-file.js');
 
     downloadFile({
         href: "http://***.***.***.***/deno.zip",
@@ -48,7 +52,7 @@
 ## 命令行参数
 ```
 使用实例
-    node ./download-file.js --href=http://***.***.***.***/deno.zip
+    node ./node-down-file.js --href=http://***.***.***.***/deno.zip
 
 参数说明
     -- href: 下载文件的URL。

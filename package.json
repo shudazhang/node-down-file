@@ -1,0 +1,29 @@
+{
+  "name": "@shudazhang/node-down-file",
+  "version": "0.0.1",
+  "description": "不使用第三方库的nodejs下载文件工具",
+  "main": "node-down-file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shudazhang/node-down-file.git"
+  },
+  "keywords": [
+    "nodejs",
+    "download",
+    "file",
+    "下载"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shudazhang/node-down-file/issues"
+  },
+  "homepage": "https://github.com/shudazhang/node-down-file#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
