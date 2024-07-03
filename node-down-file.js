@@ -94,10 +94,10 @@ async function startDownFunc(opts = {}) {
       poolCount: 5, //并发下载数
       retry: 10, // 每分片的重试最大次数
       fileName: opts.fileName || path.parse(opts.href).base, // 下载文件名
-      fileDir: opts.fileDir || __dirname, // 下载文件目录
+      fileDir: opts.fileDir || './', // 下载文件目录
       cacheDir: path.join(
         // 缓存文件目录
-        opts.fileDir || __dirname,
+        opts.fileDir || './',
         opts.fileName || path.parse(opts.href).name
       ),
       cacheExt: "ca", // 缓存文件后缀
