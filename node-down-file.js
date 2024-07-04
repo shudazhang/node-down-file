@@ -205,7 +205,7 @@ function downloaderFunc(href, headers, activeTask, poolItem, taskList, onProgres
         poolItem.timer = null;
         activeTask.retry = 0; // 重试次数重置为0
         // 创建写入流，将下载的资源写入文件
-        const fileStream = fs.createWriteStream(activeTask.path, { flags: "a" });
+        const fileStream = fs.createWriteStream(activeTask.path, { flags: "w+" });
         res.pipe(fileStream);
         // 监听数据事件，更新下载进度
         res.on("data", (chunk) => {
