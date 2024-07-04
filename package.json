@@ -1,6 +1,6 @@
 {
   "name": "@shudazhang/node-down-file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "不使用第三方库的nodejs下载文件工具",
   "main": "node-down-file.js",
   "scripts": {
